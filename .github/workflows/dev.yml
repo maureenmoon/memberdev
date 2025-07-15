@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Hello 찍기 #testing
         run: echo "Hello World"
+      - name: 여러 명령어 넣기
+        run: |
+          echo "good"
+          echo "morning"
