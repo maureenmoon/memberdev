@@ -13,12 +13,12 @@ jobs:
         run: echo "Hello World"
       - name: 여러 명령어 넣기
         run: |
-          echo "good"
+          echo "good"     #echo = console.log같은 기능
           echo "morning"
 
       - name: 변수사용
         run: |
-          echo $GITHUB_SHA
+          echo $GITHUB_SHA 
           echo $GITHUB_REPOSITORY
 
       - name: 비밀 변수사용
